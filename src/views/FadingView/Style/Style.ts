@@ -4,6 +4,7 @@ const styles =StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
+        // backgroundColor:'black'
       },
       fadingContainer: {
         position:'absolute',
@@ -21,20 +22,25 @@ const styles =StyleSheet.create({
         color:'black'
       },
       buttonRow: {
-        flexBasis: 100,
-        justifyContent: 'space-evenly',
-        marginVertical: 16,
+        position:'absolute',
+        bottom:0,
+        width:'100%',
+        padding:10,
       },
       btn:{
         alignSelf:'center',
+        width:100,
+        height:100,
         borderRadius:100,
-        padding:15,
+        padding:5,
         backgroundColor:'#4700FF66',
       },
       btnText:{
         fontWeight:'600',
         color:'black',
-        fontSize:16
+        fontSize:70,
+        alignSelf:'center',
+        marginTop:-5,
       }
 
 });

@@ -7,8 +7,8 @@ const handlePress = () => {
     const springAnim=new Animated.Value(1)
     Animated.spring(springAnim, {
         toValue: 100,
-        friction: 900,
-        tension: 40000,
+        bounciness:9000,
+        speed:1000,
         useNativeDriver: true
     })
   };

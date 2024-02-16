@@ -3,7 +3,6 @@ import { Animated, View, Text } from 'react-native';
 
 const MovingTextBanner = () => {
   const translateX = useRef(new Animated.Value(0)).current;
-
   useEffect(() => {
     Animated.loop(
       Animated.timing(translateX, {
